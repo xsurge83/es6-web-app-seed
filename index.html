@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>ES6 Web app seed </title>
+  <link rel="stylesheet" type="text/css" href="jspm_packages/npm/font-awesome@4.3.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div>ES6 Web app seed</div>
+
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script>
+  System.config({
+    "paths": {
+      "*": "dist/*.js"
+    }
+  });
+</script>
+<script>
+  System.import('app');
+</script>
+</body>
+</html>
