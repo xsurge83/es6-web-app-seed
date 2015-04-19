@@ -3,9 +3,9 @@
 This is a simple ES6 web app skeleton. 
 
 ## How it works 
-  Uses [jspm][jspm] as a universal package manager to download:
+  Uses [jspm][jspm] as a universal package manager to download (see `config.js`):
   
-   1. [systemjs][systemjs] - universal module system 
+   1. [systemjs][systemjs] - universal module system. See `config.js`
    
    2. [ES6 module loader](es6-module-loader) - ES6 module loader 
    
@@ -62,7 +62,7 @@ To run the app, follow the steps.
 1. Add unit tests.
 2. Add E2E test. 
 3. Add lint 
-4. Build to production gulp task.
+4. Build to production gulp task. See https://github.com/jspm/jspm-cli/wiki/Production-Workflows 
 5. Create a [yeoman generator](http://yeoman.io/generators/)
 
 ## Inspired by references: 
