@@ -3,15 +3,16 @@
 This is a simple ES6 web app skeleton. 
 
 ## How it works 
-  Uses [jspm][jspm] as a universal package manager to configure 
-  (see [config.js](config.js) and `jspm` key in [package.json](package.json)):
+  Uses [jspm][jspm] as a universal package manager to configure:
   
    1. [systemjs][systemjs] - universal module system. 
    
    2. [ES6 module loader](es6-module-loader) - ES6 module loader 
    
    3. [traceur](https://github.com/google/traceur-compiler/) and traceur runtime  -  compiles ES6 features within browser 
-   
+  
+   4. Packages - see [config.js](config.js) and `jspm` key in [package.json](package.json). 
+  
   During `gulp build` step uses [babeljs](https://github.com/babel/babel) to compile from ES6 to ES5 system module to the
   `dist` directory. You can create other build steps for commonjs and amd compilations.  
    
