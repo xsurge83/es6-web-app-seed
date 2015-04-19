@@ -3,9 +3,10 @@
 This is a simple ES6 web app skeleton. 
 
 ## How it works 
-  Uses [jspm][jspm] as a universal package manager to download (see `config.js`):
+  Uses [jspm][jspm] as a universal package manager to configure 
+  (see [config.js](config.js) and `jspm` key in [package.json](package.json)):
   
-   1. [systemjs][systemjs] - universal module system. See `config.js`
+   1. [systemjs][systemjs] - universal module system. 
    
    2. [ES6 module loader](es6-module-loader) - ES6 module loader 
    
